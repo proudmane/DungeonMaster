@@ -1,0 +1,8 @@
+## Interface: 70300
+## Title: DungeonMaster
+## Author: Kyle Lawhorn
+## Version: 1.0.0
+
+DungeonMaster.lua
+DungeonMaster.xml
+
