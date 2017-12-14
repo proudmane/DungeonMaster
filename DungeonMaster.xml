@@ -20,29 +20,29 @@
          <AbsValue val="32"/>
        </EdgeSize>
      </Backdrop>
-		 <Frames>
-			 <Button inherits="UIPanelButtonTemplate" name="DungeonMasterMainFrame_Button"  text="Test">
-				 <Scripts>
-					 <OnClick>
-						 DungeonMasterMainFrame:Hide();
-					 </OnClick>
-				 </Scripts>
-				 <Size x="120" y="40"/>
-				 <Anchors>
-					 <Anchor point="BOTTOM">
-						 <Offset><AbsDimension y="15"/></Offset>
-					 </Anchor>
-				 </Anchors>
-			 </Button>
-		 </Frames>
-		 <Layers>
-			 <Layer level="OVERLAY">
-				 <FontString name="testLabel" inherits="GameFontNormal" text="testing!">
-					 <Anchors>
-						 <Anchor point="TOP"/>
-					 </Anchors>
-				 </FontString>
-			 </Layer>
-		 </Layers>
-   </Frame>
+   <Frames>
+     <Button inherits="UIPanelButtonTemplate" name="DungeonMasterMainFrame_Button"  text="Test">
+       <Scripts>
+         <OnClick>
+           DungeonMasterMainFrame:Hide();
+         </OnClick>
+       </Scripts>
+       <Size x="120" y="40"/>
+       <Anchors>
+         <Anchor point="BOTTOM">
+           <Offset><AbsDimension y="15"/></Offset>
+         </Anchor>
+       </Anchors>
+     </Button>
+    </Frames>
+   <Layers>
+     <Layer level="OVERLAY">
+       <FontString name="testLabel" inherits="GameFontNormal" text="testing!">
+         <Anchors>
+           <Anchor point="TOP"/>
+         </Anchors>
+       </FontString>
+     </Layer>
+   </Layers>
+  </Frame>
  </Ui>
