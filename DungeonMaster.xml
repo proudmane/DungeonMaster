@@ -30,5 +30,14 @@
 				 </Anchors>
 			 </Button>
 		 </Frames>
+		 <Layers>
+			 <Layer level="OVERLAY">
+				 <FontString name="testLabel" inherits="GameFontNormalSmall" text="testing!">
+					 <Anchors>
+						 <Anchor point="TOP"/>
+					 </Anchors>
+				 </FontString>
+			 </Layer>
+		 </Layers> 
    </Frame>
  </Ui>
