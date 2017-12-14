@@ -3,7 +3,7 @@
    <Script file="DungeonMaster.lua" />
    <Frame name="DungeonMasterMainFrame" parent="UIParent" toplevel="true" enableMouse="true" hidden="true">
      <Size>
-       <AbsDimension x="200" y="200" />
+       <AbsDimension x="500" y="300" />
      </Size>
      <Anchors>
        <Anchor point="CENTER" />
@@ -20,5 +20,15 @@
          <AbsValue val="32"/>
        </EdgeSize>
      </Backdrop>
+		 <Frames>
+			 <Button inherits="UIPanelButtonTemplate" name="DungeonMasterMainFrame_Button"  text="Test">
+				 <Size x="120" y="40"/>
+				 <Anchors>
+					 <Anchor point="BOTTOM">
+						 <Offset><AbsDimension y="15"/></Offset>
+					 </Anchor>
+				 </Anchors>
+			 </Button>
+		 </Frames>
    </Frame>
  </Ui>
