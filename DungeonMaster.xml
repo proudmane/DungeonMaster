@@ -1,19 +1,24 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
-  <Include file="DungeonMaster.lua"/>
-	<Frame name="DungeonMasterMainFrame" parent="UIParent" hidden="false">
-		<Size x="300" y="300"/>
-		<Anchors>
-			<Anchor point="CENTER"/>
-		</Anchors>
-		<Frames>
-			<Button name="$parentButton" text="Click me!">
-				<Size x="120" y="12"/>
-				<Anchors>
-					<Anchor point="CENTER"/>
-				</Anchors>
-			</Button>
-		</Frames>
-	</Frame>
-</Ui>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Script file="DungeonMaster.lua" />
+   <Frame name="DungeonMasterMainFrame" parent="UIParent" toplevel="true" enableMouse="true" hidden="true">
+     <Size>
+       <AbsDimension x="200" y="200" />
+     </Size>
+     <Anchors>
+       <Anchor point="CENTER" />
+     </Anchors>
+     <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background"
+           edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+       <BackgroundInsets>
+         <AbsInset left="11" right="12" top="12" bottom="11"/>
+       </BackgroundInsets>
+       <TileSize>
+         <AbsValue val="32"/>
+       </TileSize>
+       <EdgeSize>
+         <AbsValue val="32"/>
+       </EdgeSize>
+     </Backdrop>
+   </Frame>
+ </Ui>
