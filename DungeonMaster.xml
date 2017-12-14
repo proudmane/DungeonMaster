@@ -21,6 +21,17 @@
        </EdgeSize>
      </Backdrop>
    <Frames>
+     <EditBox name="DungeonMasterMobText" letters="50" autoFocus="false" inherits="InputBoxTemplate">
+       <Size x="12" y="80"/>
+       <Anchors>
+         <Anchor point="CENTER"/>
+       </Anchors>
+       <Scripts>
+         <OnLoad>
+         </OnLoad>
+       </Scripts>
+       <FontString inherits="ChatFontNormal"/>
+     </EditBox>
      <Button inherits="UIPanelButtonTemplate" name="DungeonMasterMainFrame_Button"  text="Test">
        <Scripts>
          <OnClick>
@@ -45,4 +56,4 @@
      </Layer>
    </Layers>
   </Frame>
- </Ui>
+</Ui>
