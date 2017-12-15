@@ -14,3 +14,7 @@ end
 function printHello()
   message('hello world!');
 end
+
+function printValue()
+  print(DungeonMasterMobText:GetNumber());
+end
